@@ -15,7 +15,7 @@ The plugin is [on npm](https://www.npmjs.com/package/cordova-plugin-appinfo), yo
 
 ### Example
 
-    navigator.appInfo.getVersion(function(args) {
-        alert('Me is at v. ' + args);
+    navigator.appInfo.getVersion(function(version) {
+        console.log('Version: ' + version);
     });
 
